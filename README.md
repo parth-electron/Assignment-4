@@ -37,11 +37,8 @@ https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data
 | F1-Score | ≈ 0.9383 |
 
 **Confusion Matrix:**
-```
-              Predicted B   Predicted M
-Actual B          71             1
-Actual M           4            38
-```
+![image](confusion_matrix.png)
+![image](accuracy_vs_k.png)
 
 **Observations:**
 - The model reaches ~95.6% accuracy with K=5, but 4 malignant tumors were misclassified as benign versus only 1 benign misclassified as malignant — in a clinical context, minimizing missed malignant cases (false negatives) matters more than overall accuracy.
